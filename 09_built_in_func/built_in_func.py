@@ -82,6 +82,7 @@ print(id(a))
 
 #map() *자주 쓰임
 #map은 입력받은 데이터의 각 요소에 함수를 적용한 결과를 리턴하는 함수
+#map(함수, 적용대상)
 def two_time(x):
     return x * 2
 
