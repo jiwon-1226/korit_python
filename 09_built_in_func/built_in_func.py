@@ -128,7 +128,7 @@ print(pow(2, 10))
 
 #range()
 #range(시작, 끝, 간격) for문과 함께 자주 사용
-#반복 가능한 객체로 만들어서 리턴\
+#반복 가능한 객체로 만들어서 리턴
 print(list(range(5, 100, 5)))
 
 #round()
@@ -153,5 +153,6 @@ for i, fruit in enumerate(data):
 for i, fruit in enumerate(data):
     if i % 2 == 0:
         print(f"{i} : {fruit}")
+        print(f"인덱스:{i}, 값:{fruit}")
 
 
