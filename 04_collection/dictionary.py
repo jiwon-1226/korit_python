@@ -42,11 +42,11 @@ python_grade = {
     "elly": "D"
 }
 
-print(sorted(python_grade.items())) #키 기준 ㅇ르마순 정렬
-print(sorted(python_grade.items(), reverse=True)) #키 기준 내리마순 정렬
+print(sorted(python_grade.items())) #키 기준 오름차순 정렬
+print(sorted(python_grade.items(), reverse=True)) #키 기준 내림차순 정렬
 
 student = {}
-#이름을 입력받ㄱ 해당 이름을 킬, 점수를 입력받ㄱ 값을 ㅜ가
+#이름을 입력받고 해당 이름을 킬, 점수를 입력받고 값을 추가
 #student = {"김지원": 80}
 
 name = input("이름 : ")
