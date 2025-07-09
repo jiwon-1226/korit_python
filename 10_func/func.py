@@ -155,11 +155,9 @@ print(divide(454, 56, rest))
 #매개변수로 리스트를 전달 받아서 해당 리스트의 요소가 짝수면 짝수. 홀수면 홀수로 바뀐 리스트를 구하시오
 
 num_list = [11, 16, 88, 75, 46, 97, 3, 14]
-def number(x):
-    return map(x % 2 == 0)
 
-result = list(number(num_list))
-print(result)
+def parity(number_list):
+    result = (list(map(lambda x: "짝수" if x % 2 == 0 else "홀수", number_list)))
+    return  result
 
-
-
+print(parity(num_list))
