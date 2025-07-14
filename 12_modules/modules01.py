@@ -102,7 +102,7 @@ if re.match(pattern, phone_number):
 else:
     print("틀린 전화번호")
 
-#이메일 정규표현식 가져와서 위처럼 예시를 넣고 맞으면 올바른 이메일 틀림녀 틀린 이메일
+#이메일 정규표현식 가져와서 위처럼 예시를 넣고 맞으면 올바른 이메일 틀리면 틀린 이메일
 
 e_pattern = r"^[a-zA-Z0-9+-\_.]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
 e_mail = "fljhg@gmail.com"
@@ -111,3 +111,4 @@ if re.match(e_pattern, e_mail):
     print("올바른 이메일")
 else:
     print("틀린 이메일")
+
