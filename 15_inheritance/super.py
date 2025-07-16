@@ -1,5 +1,3 @@
-from pdb import line_prefix
-
 
 class Vehicle:
     def __init__(self, brand, year):
