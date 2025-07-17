@@ -1,5 +1,4 @@
 #딕셔너리
-from pdb import line_prefix
 
 profile = {
     "이름": "김지원",
