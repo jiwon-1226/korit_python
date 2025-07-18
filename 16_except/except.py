@@ -128,11 +128,23 @@ account1.whithdraw(100000)
 #정상적으로 실행된다면 해당 키으 갑쇼을 넣어둔 result 출력
 #마지막은 완료 출력
 
-python_grade = {
-    "kelly": "B",
-    "jason": "A",
-    "ian": "C",
-    "elly": "D"
+my_dict = {
+    1: "사과",
+    2: "바나나",
+    3: "딸기",
+    4: "포도",
+    5: "수박"
 }
 
-print(python_grade.keys())
+try:
+    key_input = input("딕셔너리에서 찾을 키를 입력해주세요 :")
+    key = int(key_input) #ValueError가 발생할 수 있는 코드
+    result = my_dict[key] #KeyError가 발생할 수 있는 코드
+except ValueError:
+    print("숫자를 입력해주세요")
+except KeyError:
+    print("해당키는 존재하지 않습니다")
+else:
+    print(result)
+finally:
+    print("완료")
